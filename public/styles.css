@@ -46,6 +46,17 @@ body {
   padding: 25% 10%;
 }
 
+/* Projects */
+
+.projects {
+  margin: 0 7%;
+  margin-top: 5%;
+}
+
+.projects-content {
+  padding: 25% 10%;
+}
+
 /* Footer */
 
 .footer{

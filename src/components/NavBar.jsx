@@ -3,14 +3,7 @@ import { Links } from "./Links";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./Home";
 import { Experience } from "./Experience";
-
-const Foo = () => {
-  return <p>foo</p>;
-};
-
-const Bar = () => {
-  return <p>bar</p>;
-};
+import { Projects } from "./Projects";
 
 function NavBar() {
   return (
@@ -21,8 +14,7 @@ function NavBar() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/experience" element={<Experience />} />
-            <Route path="/projects" element={<Foo />} />
-            <Route path="/contact" element={<Bar />} />
+            <Route path="/projects" element={<Projects />} />
           </Routes>
         </div>
       </Router>

@@ -21,9 +21,6 @@ const Links = () => {
           <Nav.Link as={NavLink} to="/projects" href="/projects">
             Projects
           </Nav.Link>
-          <Nav.Link as={NavLink} to="/contact" href="contact">
-            Contact
-          </Nav.Link>
         </Nav>
       </Container>
     </Navbar>
