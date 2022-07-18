@@ -1,7 +1,14 @@
-import React from "react";
+import * as React from "react";
+import { Footer } from "./components/Footer";
+import NavBar from './components/NavBar';
 
 function App() {
-    return (<div><h1>Hello</h1></div>);
+  return (
+    <>
+    <NavBar />
+    <Footer />
+    </>
+  );
 }
 
-export {App};
+export { App };
