@@ -8,8 +8,8 @@ import Navbar from "react-bootstrap/Navbar";
 const Links = () => {
 
   return (
-    <Navbar bg="dark" variant="dark">
-      <Container>
+    <Navbar className="navbar" bg="dark" variant="dark">
+      <Container fluid>
         <Navbar.Brand href="/"><Avatar>SK</Avatar></Navbar.Brand>
         <Nav className="ml-auto">
           <Nav.Link as={NavLink} to="/" href="/" exact="true">

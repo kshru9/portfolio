@@ -8,6 +8,12 @@ body {
   color: #fff;
 }
 
+/* Nav bar */
+
+.navbar {
+  width: 100%;
+}
+
 /* Home */
 
 .home {
@@ -29,11 +35,21 @@ body {
   line-height: 2;
 }
 
+/* Experience */
+.experience {
+  text-align: center;
+  margin: 0 7%;
+  margin-top: 5%;
+}
+
+.paper-exp {
+  padding: 25% 10%;
+}
+
 /* Footer */
 
 .footer{
   margin-top: 1rem;
-  padding: 1rem;
   background-color: grey;
   position: fixed;
   bottom: 0;

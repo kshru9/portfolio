@@ -26,7 +26,7 @@ function Home() {
             <p className="home-content">
               I am a passionate, driven software engineer. Currently, I am
               focused on building databases at <span>Oracle</span>. I hold a
-              Bachelors in computer science from IIT-Gandhinagar.
+              Bachelors in computer science from IIT Gandhinagar.
             </p>
           </Col>
           <Col sm={4}></Col>

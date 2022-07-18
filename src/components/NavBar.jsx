@@ -2,6 +2,7 @@ import React from "react";
 import { Links } from "./Links";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Home } from "./Home";
+import { Experience } from "./Experience";
 
 const Foo = () => {
   return <p>foo</p>;
@@ -19,7 +20,7 @@ function NavBar() {
           <Links />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/experience" element={<Foo />} />
+            <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Foo />} />
             <Route path="/contact" element={<Bar />} />
           </Routes>
