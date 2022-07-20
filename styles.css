@@ -1,0 +1,70 @@
+body {
+  background-color: #e4e8f7;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+  font-family: 'Open Sans', sans-serif;
+}
+
+.active{
+  color: #fff;
+}
+
+/* Nav bar */
+
+.navbar {
+  width: 100%;
+}
+
+/* Home */
+
+.home {
+  margin: 8rem 0;
+}
+
+.home-title {
+  text-align: center;
+  margin: 5% 0;
+}
+
+.avatar {
+  margin: auto;
+  margin-top: 10%;
+}
+
+.home-content {
+  text-align: center;
+  line-height: 2;
+}
+
+/* Experience */
+.experience {
+  text-align: center;
+  margin: 0 7%;
+  margin-top: 5%;
+}
+
+.paper-exp {
+  padding: 25% 10%;
+}
+
+/* Projects */
+
+.projects {
+  margin: 0 7%;
+  margin-top: 5%;
+}
+
+.projects-content {
+  padding: 25% 10%;
+}
+
+/* Footer */
+
+.footer{
+  margin-top: 1rem;
+  background-color: grey;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
